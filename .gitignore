@@ -1,6 +1,9 @@
 ### Java template
 # Compiled class file
 *.class
+*.bin
+*.lock
+*.probe
 
 # Log file
 *.log
@@ -53,6 +56,9 @@ replay_pid*
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+gc.*
+cache.*
+*.xml
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -129,3 +135,16 @@ fabric.properties
 hs_err_pid*
 replay_pid*
 
+ksp_client/build/kotlin/kspclientjar-classes.txt
+ksp_client/build/kspCaches/main/caches.uptodate
+*.tab
+*.len
+*.keystream
+*.at
+*.tab_i
+ksp_client/build/kspCaches/main/sourceToOutputs
+ksp_client/build/kspCaches/main/sourceToOutputs_i
+ksp_client/build/kspCaches/main/symbols
+ksp_client/build/kspCaches/main/symbols_i
+ksp_host/build/kotlin/ksphostjar-classes.txt
+*.txt
