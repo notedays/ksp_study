@@ -59,6 +59,7 @@ replay_pid*
 gc.*
 cache.*
 *.xml
+build
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -148,3 +149,5 @@ ksp_client/build/kspCaches/main/symbols
 ksp_client/build/kspCaches/main/symbols_i
 ksp_host/build/kotlin/ksphostjar-classes.txt
 *.txt
+gradlew.bat
+gradlew
